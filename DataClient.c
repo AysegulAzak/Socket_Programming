@@ -39,7 +39,7 @@ int main() {
     printf("Server'a baglanildi.\n");
 
     while (1) {
-        printf("Komut girin (AFET_BILDIR, DURUM_SOR, CÝKÝS): ");
+        printf("Komut girin (AFET_BILDIR, DURUM_SOR, CIKIS): ");
         fgets(buffer, BUFFER_SIZE, stdin);
         buffer[strcspn(buffer, "\n")] = '\0';
 
