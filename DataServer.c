@@ -35,7 +35,7 @@ void handle_client(SOCKET client_socket) {
         buffer[recv_size] = '\0';
         printf("Received: %s\n", buffer);
 
-        if (strncmp(buffer, "AFET_BÝLDÝR", 11) == 0) {
+        if (strncmp(buffer, "AFET_BILDIR", 11) == 0) {
            
             char region[50], disaster_type[50];
             float severity;
